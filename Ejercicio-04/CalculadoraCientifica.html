@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Luis Manuel González Baizán" />
+    <meta name="viewport" content ="width=device-width, initial scale=1.0" />
+    <title>Ejercicio04</title>
+    <link rel="stylesheet" href="CalculadoraCientifica.css">
+    <script src="CalculadoraCientifica.js"></script>
+</head>
+<body>
+    <h1> Curso: 2022/2023 </h1>
+    <section>
+        <h2>Calculadora científica</h2>
+        <!-- LABEL to watch the calculations -->
+        <label for="pantalla">Pantalla:</label>
+        <input id="pantalla" title="pantalla" type="text" disabled>
+
+        <!-- Units -->
+        <input type="button" value="DEG" onclick="calc.cambiaUnidadAngulos();" />
+        <input type="button" value="HYP" onclick="calc.cambiaUnidadAngulos();" />
+        <input type="button" value="F-E" onclick="calc.cambiaUnidadAngulos();" />
+
+        <!-- Memory management -->
+        <input type="button" value="MC" onclick="calc.mc();" />
+        <input type="button" value="MR" onclick="calc.mr();" />
+        <input type="button" value="M+" onclick="calc.mMas();" />
+        <input type="button" value="M-" onclick="calc.mMenos();" />
+        <input type="button" value="MS" onclick="calc.guardarEnMemoria();" />
+
+        <!-- Buttons to perform the calculations -->
+        <input type="button" value="x^2" onclick="calc.cuadrado();" />
+        <input type="button" value="x^y"   onclick="calc.potencia();" />
+        <input type="button" value="sin" onclick="calc.seno();"/>
+        <input type="button" value="cos" onclick="calc.coseno();"/>
+        <input type="button" value="tan" onclick="calc.tangente();"/>
+
+        <input type="button" value="√" onclick="calc.raizCuadrada();" />
+        <input type="button" value="10^x"    onclick="calc.potencia10();" />
+        <input type="button" value="log" onclick="calc.log();" />
+        <input type="button" value="Exp"     onclick="calc.exp();" />
+        <input type="button" value="mod" onclick="calc.modulo();" />
+
+        <input type="button" value="↑" onclick="calc.shift();" />
+        <input type="button" value="CE"     onclick="calc.borrarUltimoDigito();" />
+        <input type="button" value="C"     onclick="calc.borrar();" />
+        <input type="button" value="⌫"  onclick="calc.backspace();" />
+        <input type="button" value="÷"  onclick="calc.division();" />
+
+        <input type="button" value="π" onclick="calc.digitos(Math.PI);" />
+        <input type="button" value="7"     onclick="calc.digitos('7');" />
+        <input type="button" value="8"     onclick="calc.digitos('8');" />
+        <input type="button" value="9"     onclick="calc.digitos('9');" />
+        <input type="button" value="×" onclick="calc.multiplicacion();" />
+
+        <input type="button" value="n!"     onclick="calc.factorial();" />
+        <input type="button" value="4"      onclick="calc.digitos('4');" />
+        <input type="button" value="5"      onclick="calc.digitos('5');" />
+        <input type="button" value="6"      onclick="calc.digitos('6');" />
+        <input type="button" value="-" onclick="calc.resta();" />
+
+        <input type="button" value="±" onclick="calc.masMenos();" />
+        <input type="button" value="1"   onclick="calc.digitos('1');" />
+        <input type="button" value="2"   onclick="calc.digitos('2');" />
+        <input type="button" value="3"   onclick="calc.digitos('3');" />
+        <input type="button" value="+"   onclick="calc.suma();" />
+
+        <input type="button" value="("      onclick="calc.parentesisIzq('(');" />
+        <input type="button" value=")"      onclick="calc.parentesisDer(')');" />
+        <input type="button" value="0"     onclick="calc.digitos('0');" />
+        <input type="button" value="."     onclick="calc.punto();" />
+        <input type="submit" value="="     onclick="calc.igual();" />
+    </section>
+</body>
+</html>

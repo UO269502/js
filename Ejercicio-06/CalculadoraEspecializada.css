@@ -1,0 +1,115 @@
+/*Especificidad: 001*/
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*Especificidad: 001*/
+h1 {
+    text-align: center;
+}
+
+/*Especificidad: 001*/
+section {
+    color: black;
+    background-color: #ac7643;
+
+    margin: auto;
+    padding: 0.5em;
+    gap: 0.2em;
+
+    box-sizing: border-box;
+    max-width: 80vw;
+    height: 80vh;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(13, 1fr);
+}
+
+/*Especificidad: 011*/
+input[type=button],
+input[type=submit]
+{
+    font-size: 1.5em;
+
+    color: black;
+    background-color: #9cddf7;
+    
+    border: none;
+}
+
+/*Especificidad: 021*/
+input[type=button]:hover,
+input[type=submit]:hover
+{
+    color: black;
+    background-color: #9cddf7;
+}
+
+/*Especificidad: 021*/
+input[type=button]:active,
+input[type=submit]:active
+{
+    color: black;
+    background-color: #f3c0c0;
+}
+
+/*Especificidad: 011*/
+input[value="1"],
+input[value="2"],
+input[value="3"],
+input[value="4"],
+input[value="5"],
+input[value="6"],
+input[value="7"],
+input[value="8"],
+input[value="9"],
+input[value="0"],
+input[value="."]
+{
+    color: black;
+    background-color: #fbfbfb;
+}
+
+input[value="distCoor"] {
+    grid-column-end: span 2;
+}
+
+/*Especificidad: 011*/
+/*Especificidad: 001*/
+input[type=text],
+textarea
+{
+    color: black;
+    background-color: #f2f2f2;
+
+    text-align: right;
+    text-overflow: ellipsis;
+
+    border: none;
+    max-width: 100%;
+
+    grid-column-end: span 4;
+}
+
+/*Especificidad: 011*/
+input[type=text] {
+    font-size: 2em;
+
+    padding: 0.1em;
+    margin-bottom: 0.1em;
+}
+
+/*Especificidad: 001*/
+textarea {
+    font-size: 1em;
+
+    grid-row-end: span 2;
+
+    resize: none;
+}

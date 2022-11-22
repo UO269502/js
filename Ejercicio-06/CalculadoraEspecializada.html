@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Luis Manuel Gonzalez Baizan" />
+    <meta name="viewport" content ="width=device-width, initial scale=1.0" />
+    <title>Ejercicio6 - Calculadora especializada</title>
+    <link rel="stylesheet" href="CalculadoraEspecializada.css">
+    <script src="CalculadoraEspecializada.js"></script>
+</head>
+
+<body>
+    <h1>Curso: 2022/2023</h1>
+    <section>
+        <h2>Calculadora Especializada</h2>
+        <label for="pantallaPila">PantallaPila:</label>
+        <textarea id="pantallaPila" cols="40" rows="4" disabled></textarea>
+        <label for="pantalla">Pantalla:</label>
+        <input id="pantalla" type="text" title="pantalla" disabled>
+
+        <!-- Buttons to perform the calculations -->
+        <input type="button" value="distCoor"   onclick="calc.distCoor();" />
+        <input type="button" value="difAltitud"   onclick="calc.difAlt();" />
+        <input type="button" value="km"   onclick="calc.medida();" />
+
+        <input type="button" value="sin"   onclick="calc.seno();" />
+        <input type="button" value="cos"   onclick="calc.coseno();" />
+        <input type="button" value="tan"   onclick="calc.tangente();" />
+        <input type="button" value="↑"  onclick="calc.shift();" />
+
+        <input type="button" value="e^x" onclick="calc.exponencial();" />
+        <input type="button" value="x^y"    onclick="calc.potencia();" />
+        <input type="button" value="x^2"    onclick="calc.cuadrado();" />
+        <input type="button" value="10^x"  onclick="calc.potencia10();" />
+        
+        <input type="button" value="&#177;"    onclick="calc.cambioSigno();" />
+        <input type="button" value="log"    onclick="calc.logaritmo();" />
+        <input type="button" value="&Sqrt;" onclick="calc.raizCuadrada();" />
+        <input type="button" value="&div;" onclick="calc.division();" />
+
+        <input type="button" value="7" onclick="calc.digitos(this.value);" />
+        <input type="button" value="8" onclick="calc.digitos(this.value);" />
+        <input type="button" value="9" onclick="calc.digitos(this.value);" />
+        <input type="button" value="*" onclick="calc.multiplicacion();" />
+
+        <input type="button" value="4" onclick="calc.digitos(this.value);" />
+        <input type="button" value="5" onclick="calc.digitos(this.value);" />
+        <input type="button" value="6" onclick="calc.digitos(this.value);" />
+        <input type="button" value="-" onclick="calc.resta();" />
+
+        <input type="button" value="1" onclick="calc.digitos(this.value);" />
+        <input type="button" value="2" onclick="calc.digitos(this.value);" />
+        <input type="button" value="3" onclick="calc.digitos(this.value);" />
+        <input type="button" value="+" onclick="calc.suma();" />
+
+        <input type="button" value="C"     onclick="calc.borrar();" />
+        <input type="button" value="0"     onclick="calc.digitos(this.value);" />
+        <input type="button" value="."     onclick="calc.digitos(this.value);" />
+        <input type="submit" value="ENTER" onclick="calc.enter();" />
+    </section>
+</body>
+
+</html>

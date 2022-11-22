@@ -1,0 +1,1 @@
+document.write("<h2>" + ejercicio01.titulacion + "</h2>");

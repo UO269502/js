@@ -1,0 +1,1 @@
+document.write("<h4>" + ejercicio01.universidad + "</h4>");

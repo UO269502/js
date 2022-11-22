@@ -1,0 +1,29 @@
+body {
+    background-color: #FFF3DA;
+    color: black;
+}
+
+h1 {
+    color: blueviolet;
+    background-color: #FFF3DA;
+}
+
+h2 {
+    color: black;
+    background-color: #FFF3DA;
+}
+
+h3 {
+    color: brown;
+    background-color: #FFF3DA;
+}
+
+h4 {
+    color: darkgreen;
+    background-color: #FFF3DA;
+}
+
+p {
+    color: black;
+    background-color: #FFF3DA;
+}
