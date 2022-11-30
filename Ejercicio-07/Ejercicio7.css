@@ -1,0 +1,169 @@
+/********************************
+Luis Manuel González Baizán - UO269502
+Descripción de los estilos
+********************************/
+
+/*Especificidad: 001*/
+body {
+    font-family: Tahoma, sans-serif;
+    font-size:0.9375em;
+	font-weight:300;
+    color: #000000;
+    background-color: #F9F9DF;
+    margin: 1.5625em 3.125em;
+    }
+
+/* HEADER */
+/*Especificidad: 001*/
+header {
+    border-radius: 1.25em;
+    color: rgb(0, 0, 0);
+    background-color:#EFFF74;
+    text-transform: uppercase;
+    padding: 1.875em;
+    text-align: center;     
+    }
+
+/*Especificidad: 001*/    
+nav{
+    color: white;
+    background: rgb(0, 0, 0);
+    padding: 0.625em;
+    text-align: center;
+    }
+
+/*Especificidad: 001*/
+h2{
+    color: rgb(0, 0, 0);
+    background-color: #E2DEA7;
+    text-align: center;
+}
+
+/*Especificidad: 002*/
+nav a{
+    display: inline-block;
+    color:#000000;
+    background: #F9F9DF; 
+    padding: 0.625em 1.875em;
+    text-decoration: none;
+    }
+
+/*Especificidad: 012*/    
+nav a:hover{
+    color: rgb(0, 0, 0);
+    background: #beb7b7;
+    }
+
+/*Especificidad: 001*/    
+form{
+    padding: 1em;
+    border-radius: 0.625em;
+	margin:auto;
+    color:rgb(0, 0, 0);
+	background-color:#ccc;
+}
+
+/*Especificidad: 002*/
+form label{
+    width: 4.5em;
+	font-weight:bold;
+	display:inline-block;
+}
+
+/*Especificidad: 001*/
+textarea{
+	width:100%;
+    height: 6.25em;
+    border:0.0625em solid #92864f;
+    border-radius: 0.1875em;
+    color:rgb(0, 0, 0);
+	background-color:#f6f6f6;
+    margin: 0.5em 0;
+	resize:none;
+	display:block;
+}
+
+/*Especificidad: 001*/
+ul{
+    list-style-type: square;
+}
+
+/*Especificidad: 002*/
+ul li{
+    color: rgb(0, 0, 0);
+    background-color: #F9F9DF;
+}
+
+/*Especificidad: 003*/
+ul li ul{
+    list-style-type: disc;
+}
+
+/*Especificidad: 004*/
+ul li ul li{
+    color: rgb(49, 48, 43);
+    background-color: #F9F9DF;
+}
+
+/*Especificidad: 001*/
+table{
+    border: 0.1875em solid #000;
+    border-collapse: collapse;
+}
+
+/*Especificidad: 002*/
+table th{
+    border: 0.0625em solid #000;
+}
+
+/*Especificidad: 002*/
+table td{
+    border: 0.0625em solid #000;
+    padding: 0.3125em;
+}
+
+/*Especificidad: 001*/
+address{
+    background: rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+}
+
+/*Especificidad: 003*/
+address p a{
+    color: rgb(179, 226, 248);
+    background-color: rgb(0, 0, 0);
+}
+
+/*Especificidad: 001*/
+footer{
+    background: rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+}
+
+/*Especificidad: 002*/
+section video,
+section img,
+section audio{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Especificidad: 001*/
+body{
+	display: grid;
+	gap: 0.2em;
+	grid-template-columns: repeat(4, 1fr);
+}
+
+/*Especificidad: 001*/
+header,
+nav,
+section,
+address,
+footer,
+section img,
+section video,
+section audio{
+	grid-column: 1/5;
+}

@@ -1,0 +1,55 @@
+/*Especificidad: 001*/
+body {
+    font-family: 'Lucida Sans', sans-serif;
+
+    color: #f8f8f2;
+    background-color: #282a36;
+}
+
+/*Especificidad: 001*/
+h1 {
+    text-align: center;
+}
+
+/*Especificidad: 001*/
+button {
+    color: #f8f8f2;
+    background-color: #282a36;
+
+    padding: 1em;
+    border: 0.2em solid #6272a4;
+}
+
+/*Especificidad: 011*/
+button:hover {
+    border: 0.2em solid #8be9fd;
+}
+
+/*Especificidad: 011*/
+button:active {
+    color: #282a36;
+    background-color: #8be9fd;
+}
+
+/*Especificidad: 001*/
+section {
+    background-color: #282a36;
+
+    margin-bottom: 1em;
+    padding: 1em;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template: 
+        "h2 img"
+        "ul .  ";
+}
+
+h2 {
+    grid-column-end: 2 span;
+}
+
+/*Especificidad: 001*/
+img {
+    justify-self: end;
+}

@@ -1,0 +1,50 @@
+/*Especificidad: 001*/
+body {
+    color: #000000;
+    background-color: #fdf8dd;
+}
+
+/*Especificidad: 001*/
+h1 {
+    text-align: center;
+}
+
+/*Especificidad: 001*/
+button {
+    color: #000000;
+    background-color: #f77750;
+
+    padding: 1em;
+}
+
+/*Especificidad: 001*/
+section {
+    background-color: #f7cefc;
+    color: black;
+
+    margin-bottom: 1em;
+    padding: 1em;
+
+    display: grid;
+    grid-template: 
+        "h2 img"
+        "ul .  ";
+}
+
+/*Especificidad: 001*/
+img {
+    justify-self: end;
+}
+
+/*Especificidad: 001*/
+address,
+footer {
+    background: rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+}
+
+/*Especificidad: 003*/
+address p a{
+    color: rgb(179, 226, 248);
+    background-color: rgb(0, 0, 0);
+}

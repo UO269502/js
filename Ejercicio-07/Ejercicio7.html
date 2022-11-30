@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <meta name ="author" content ="Luis Manuel González Baizán" />
+    <meta name ="description" content ="características del framework Laravel" />
+    <meta name ="keywords" content ="Podcast, tutorial, libros" />
+    <!--Definición de la ventana gráfica-->
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+    <title>Laravel - Aprende con nosotros</title>
+    <!-- añadir el elemento link de enlace a la hoja de estilo dentro del <head> del documento html -->
+    <link rel="stylesheet" type="text/css" href="Ejercicio7.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="Ejercicio7.js"></script>
+</head>
+
+<body>
+    <!-- Cabecera del documento -->
+    <header>
+        <h1>Laravel</h1>
+        <P>Página web oficial: <a href="https://laravel.com/">Laravel</a></P>
+        <!--Tarea 1-->
+        <button onclick="ejercicio.ocultarInformacion();">Ocultar información</button>
+        <button onclick="ejercicio.mostrarInformacion();">Mostrar información</button>
+        <!--Tarea 2-->
+        <button onclick="ejercicio.modificarAddress();">Modificar address</button>
+        <!--Tarea 3-->
+        <button onclick="ejercicio.añadirParrafo();">Añadir párrafo</button>
+        <!--Tarea 4-->
+        <button onclick="ejercicio.eliminarH3();">Eliminar h3</button>
+        <!--Tarea 5-->
+        <button onclick="ejercicio.recorrerElementos();">Recorrer elementos</button>
+        <!--Tarea 6-->
+        <button onclick="ejercicio.sumarFilasyColumnas();">Sumar filas y columnas</button>
+    </header>
+
+    <section>
+        <h2>Comunidad activa</h2>
+        <p>Lavarel fomenta que la comunidad que usa su framework comente todo lo que les ocurre o logran, tanto es asi que tienen su propio foro, 
+            noticiario, tutoriales y podcast. Buscan de forma continua que cada vez más la gente se una a ellos, subiendo tutoriales para la gente 
+            novata, foros y noticias para que todos sus usuarios estén al tanto de lo que sucede y además un podcast donde hablan de distintas
+            funcionalidades o proyectos que han conseguido.
+        </p>
+        <h3>Podcast Laravel</h3>
+        <p>Esta empresa tiene un podcast oficial el cual ya va por la cuarta temporada donde invitan a desarrolladores a que hablen sobre distintos
+            proyectos en los que estan usando Laravel y como trabajan con ello.
+        </p>
+        <h3>Tutoriales Laravel</h3>
+        <p>Laravel ofrece una serie de tutoriales para todo tipo de desarrolladores ya sean novatos o expertos. Donde mediante texto y capturas de código
+            dejan muy detallado lo que tienen que hacer para conseguir el objetivo de ese tutorial. Todos los días suben uno nuevo, por lo que resulta muy útil
+            si quieres aprender más sobre este framework.
+        </p>
+        <h2>Mejores libros para aprender Laravel</h2>
+        <table>
+            <caption>
+                Mejores libros para aprender Laravel
+            </caption>
+            <thead>
+                <th scope="col" id="libros">Libros</th>
+                <th scope="col" id="autor">Autor</th>
+                <th scope="col" id="añoPublicacion">Año publicación</th>
+                <th scope="col" id="idioma">Idioma</th>
+            </thead>
+            <tbody>
+            <tr>
+                <th scope="row" id="upRunning">Laravel: Up & Running</th>
+                <td headers="upRunning autor">Matt Stauffer</td>
+                <td headers="upRunning añoPublicacion">2019</td>
+                <td headers="upRunning idioma">Inglés</td>
+            </tr>
+            <tr>
+                <th scope="row" id="masteringLaravel">Mastering Laravel</th>
+                <td headers="masteringLaravel autor">Christopher John</td>
+                <td headers="masteringLaravel añoPublicacion">2015</td>
+                <td headers="masteringLaravel idioma">Inglés</td>
+            </tr>
+            <tr>
+                <th scope="row" id="phpAdvanced">PHP Advanced and Object-Oriented Programming</th>
+                <td headers="phpAdvanced autor">Larry Ullman</td>
+                <td headers="phpAdvanced añoPublicacion">2012</td>
+                <td headers="phpAdvanced idioma">Inglés</td>
+            </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Dirección de contacto con el creador de la página web -->
+    <address>
+        <p>En caso de cualquier incidencia envíe un email al siguiente correo: <a href="mailto:uo269502@uniovi.es">uo269502@uniovi.es</a></p>
+    </address>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>Copyright ©2022 UO269502</p>
+    </footer>
+    
+</body>
+</html>
