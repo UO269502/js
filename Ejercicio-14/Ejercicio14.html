@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ <meta charset="UTF-8"/>
+ <meta name="viewport" content="width=device-width, maximum-scale=0.5"/>
+ <title>Ejercicio 14</title>
+ <link rel="stylesheet" type="text/css" href="Ejercicio14.css" />
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <script src="Ejercicio14.js"></script>
+</head>
+
+<body>
+    <h1>Paint</h1>
+
+    <div id="drop_zone" ondrop="paint.dropHandler(event);" ondragover="paint.dragOverHandler(event);">
+        <p>Drop zone:</p>
+    </div>
+    <button onclick="paint.showSquare()">Arte abstracto</button>
+    <button onclick="paint.dripping()">Arte dripping</button>
+    <button onclick="paint.recorrerCiudades();">Arte con los datos metereológicos de Oviedo</button>
+    <canvas id="canvas"></canvas>
+    <!-- Dirección de contacto con el creador de la página web -->
+    <address>
+        <p>En caso de cualquier incidencia envía un email al siguiente correo: <a href="mailto:uo269502@uniovi.es">uo269502@uniovi.es</a></p>
+    </address>
+    <!-- Pie de página -->
+    <footer>
+        <p>Copyright ©2022 UO269502</p>
+    </footer>
+</body>
+</html>

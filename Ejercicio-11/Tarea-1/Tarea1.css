@@ -17,21 +17,6 @@ button {
     padding: 1em;
 }
 
-/*Especificidad: 001*/
-section {
-    background-color: #f7cefc;
-    color: black;
-
-    margin-bottom: 1em;
-    padding: 1em;
-
-    display: flex;
-    flex-direction: column;
-    /*grid-template-columns: repeat(2, 1fr);*/
-    align-items: center;
-    justify-content: center;
-}
-
 h2 {
     grid-column-end: span 2;
 }

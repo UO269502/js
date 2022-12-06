@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<redSocial>
+<persona>
+    <datos>
+		<nombre>Luis Manuel</nombre>
+		<apellidos>Gonzalez Baizan</apellidos>
+        <fechaNacimiento>2000-06-18</fechaNacimiento>
+        <lugarNacimiento>Llanos</lugarNacimiento>
+        <coordenadasNacimiento latitud="43.11972548534997" longitud="-5.543699943057527" altitud="573"/>
+        <lugarResidencia>Oviedo</lugarResidencia>
+		<coordenadasResidencia latitud="43.3521617120154" longitud="-5.873177321945873" altitud="349"/>
+        <fotografias>
+            <foto>Luis-BohemianFC.jpg</foto>
+			<foto>Luis-VacaEscocesa.jpg</foto>
+        </fotografias>
+        <videos>
+			<video>Luis-BohemianGoal.mp4</video>
+        </videos>
+        <comentarios>
+            <comentario>Ahorrando para realizar el viaje a Escocia e Irlanda.</comentario>
+        </comentarios>
+    </datos>
+	<persona>
+		<datos>
+			<nombre>Mateo</nombre>
+			<apellidos>Gonzalez Oliva</apellidos>
+			<fechaNacimiento>2000-05-31</fechaNacimiento>
+			<lugarNacimiento>Mieres</lugarNacimiento>
+			<coordenadasNacimiento latitud="43.25049731953863" longitud="-5.777991945648195" altitud="207"/>
+			<lugarResidencia>Soto de Ribera</lugarResidencia>
+			<coordenadasResidencia latitud="43.30855011899778" longitud="-5.8778295903311735" altitud="166"/>
+			<fotografias>
+				<foto>Mateo-Ganado.jpg</foto>
+			</fotografias>
+			<videos>
+			</videos>
+			<comentarios>
+				<comentario>Militar y opositor para Guardia Civil.</comentario>
+			</comentarios>
+		</datos>
+		<persona>
+			<datos>
+				<nombre>David</nombre>
+				<apellidos>Denis Fernandez</apellidos>
+				<fechaNacimiento>2002-07-20</fechaNacimiento>
+				<lugarNacimiento>Bruselas</lugarNacimiento>
+				<coordenadasNacimiento latitud="50.84339793569801" longitud="4.358592554502403" altitud="21"/>
+				<lugarResidencia>Amsterdam</lugarResidencia>
+				<coordenadasResidencia latitud="52.35793779281528" longitud="4.914253420215366" altitud="1"/>
+				<fotografias>
+					<foto>David-Rap.jpg</foto>
+				</fotografias>
+				<videos>
+				</videos>
+				<comentarios>
+					<comentario>Sabe 4 idiomas: Frances, Ingles, Alemen y Neerlandes.</comentario>
+				</comentarios>
+			</datos>
+		</persona>
+		<persona>
+			<datos>
+				<nombre>Marina</nombre>
+				<apellidos>Gonzelez Rodriguez</apellidos>
+				<fechaNacimiento>2000-02-12</fechaNacimiento>
+				<lugarNacimiento>Santander</lugarNacimiento>
+				<coordenadasNacimiento latitud="43.4647031225115" longitud="-3.813369138186053" altitud="11"/>
+				<lugarResidencia>Llanes</lugarResidencia>
+				<coordenadasResidencia latitud="43.422915856790105" longitud="-4.7559886012584975" altitud="8"/>
+				<fotografias>
+					<foto>Marina-Llanes.jpg</foto>
+				</fotografias>
+				<videos>
+				</videos>
+				<comentarios>
+					<comentario>Le encanta viajar.</comentario>
+				</comentarios>
+			</datos>
+		</persona>
+		<persona>
+			<datos>
+				<nombre>Gonzalo</nombre>
+				<apellidos>Perez Iglesias</apellidos>
+				<fechaNacimiento>2000-11-19</fechaNacimiento>
+				<lugarNacimiento>Tapia de Casariego</lugarNacimiento>
+				<coordenadasNacimiento latitud="43.56914086773974" longitud="-6.943048911880042" altitud="19"/>
+				<lugarResidencia>Cadiz</lugarResidencia>
+				<coordenadasResidencia latitud="36.519717776067374" longitud="-6.279534290615111" altitud="15"/>
+				<fotografias>
+					<foto>Gonzalo-Guitarra.jpg</foto>
+				</fotografias>
+				<videos>
+				</videos>
+				<comentarios>
+					<comentario>El flamenco es su pasion.</comentario>
+				</comentarios>
+			</datos>
+		</persona>
+	</persona>
+	<persona>
+		<datos>
+			<nombre>Adrian</nombre>
+			<apellidos>Fernandez Aladro</apellidos>
+			<fechaNacimiento>2001-05-15</fechaNacimiento>
+			<lugarNacimiento>Laviana</lugarNacimiento>
+			<coordenadasNacimiento latitud="43.24351110543004" longitud="-5.563859036034491" altitud="287"/>
+			<lugarResidencia>Caleao</lugarResidencia>
+			<coordenadasResidencia latitud="43.15593143895082" longitud="-5.4118834308130825" altitud="735"/>
+			<fotografias>
+				<foto>Adrian-Caleao.jpg</foto>
+			</fotografias>
+			<videos>
+			</videos>
+			<comentarios>
+				<comentario>Luchador como nadie.</comentario>
+			</comentarios>
+		</datos>
+		<persona>
+			<datos>
+				<nombre>Hugo</nombre>
+				<apellidos>Martinez Martinez</apellidos>
+				<fechaNacimiento>2001-06-29</fechaNacimiento>
+				<lugarNacimiento>Benidorm</lugarNacimiento>
+				<coordenadasNacimiento latitud="38.53398213305735" longitud="-0.13111140647912203" altitud="19"/>
+				<lugarResidencia>Zaragoza</lugarResidencia>
+				<coordenadasResidencia latitud="41.646811674875984" longitud="-0.8906897774736898" altitud="221"/>
+				<fotografias>
+					<foto>Hugo-Zaragoza.jpg</foto>
+				</fotografias>
+				<videos>
+				</videos>
+				<comentarios>
+					<comentario>Fiestero como nadie.</comentario>
+				</comentarios>
+			</datos>
+		</persona>
+		<persona>
+			<datos>
+				<nombre>Alejandro</nombre>
+				<apellidos>Valero Gonzalez</apellidos>
+				<fechaNacimiento>2001-03-20</fechaNacimiento>
+				<lugarNacimiento>Dublin</lugarNacimiento>
+				<coordenadasNacimiento latitud="53.35873602893346" longitud="-6.330162844873174" altitud="38"/>
+				<lugarResidencia>Reikiavik</lugarResidencia>
+				<coordenadasResidencia latitud="64.13572020815224" longitud="-21.903255157224443" altitud="39"/>
+				<fotografias>
+					<foto>Alejandro-Islandia.jpg</foto>
+				</fotografias>
+				<videos>
+				</videos>
+				<comentarios>
+					<comentario>Es su propio jefe.</comentario>
+				</comentarios>
+			</datos>
+		</persona>
+		<persona>
+			<datos>
+				<nombre>Angela</nombre>
+				<apellidos>Suarez Perez</apellidos>
+				<fechaNacimiento>2000-09-27</fechaNacimiento>
+				<lugarNacimiento>Lisboa</lugarNacimiento>
+				<coordenadasNacimiento latitud="38.719785335606" longitud="-9.136514408307939" altitud="15"/>
+				<lugarResidencia>Boston</lugarResidencia>
+				<coordenadasResidencia latitud="42.35138338770072" longitud="-71.06641598523109" altitud="44"/>
+				<fotografias>
+					<foto>Angela-Boston.jpg</foto>
+				</fotografias>
+				<videos>
+				</videos>
+				<comentarios>
+					<comentario>Nunca se esta en la misma ciudad mas de 2 meses seguidos.</comentario>
+				</comentarios>
+			</datos>
+		</persona>
+	</persona>
+	<persona>
+		<datos>
+			<nombre>Marta</nombre>
+			<apellidos>Fernandez Morales</apellidos>
+			<fechaNacimiento>2000-04-16</fechaNacimiento>
+			<lugarNacimiento>Leon</lugarNacimiento>
+			<coordenadasNacimiento latitud="42.601014044704385" longitud="-5.573271551434656" altitud="832"/>
+			<lugarResidencia>Madrid</lugarResidencia>
+			<coordenadasResidencia latitud="40.40223849231007" longitud="-3.6977487310143657" altitud="610"/>
+			<fotografias>
+				<foto>Marta-gatoMontes.jpg</foto>
+			</fotografias>
+			<videos>
+			</videos>
+			<comentarios>
+				<comentario>Imparable.</comentario>
+			</comentarios>
+		</datos>
+		<persona>
+			<datos>
+				<nombre>Ana</nombre>
+				<apellidos>Garcia Garcia</apellidos>
+				<fechaNacimiento>2000-10-05</fechaNacimiento>
+				<lugarNacimiento>Gijon</lugarNacimiento>
+				<coordenadasNacimiento latitud="43.53316543681475" longitud="-5.67051497632489" altitud="5"/>
+				<lugarResidencia>Burgos</lugarResidencia>
+				<coordenadasResidencia latitud="42.34678503523332" longitud="-3.696753484499733" altitud="850"/>
+				<fotografias>
+					<foto>Ana-Paisaje.jpg</foto>
+				</fotografias>
+				<videos>
+				</videos>
+				<comentarios>
+					<comentario>Pura felicidad.</comentario>
+				</comentarios>
+			</datos>
+		</persona>
+		<persona>
+			<datos>
+				<nombre>Miguel</nombre>
+				<apellidos>Rodriguez Fano</apellidos>
+				<fechaNacimiento>2000-04-01</fechaNacimiento>
+				<lugarNacimiento>Meres</lugarNacimiento>
+				<coordenadasNacimiento latitud="43.37568888491117" longitud="-5.748992952555026" altitud="185"/>
+				<lugarResidencia>Roma</lugarResidencia>
+				<coordenadasResidencia latitud="41.8905651018429" longitud="12.494791200265107" altitud="58"/>
+				<fotografias>
+					<foto>Miguel-FreemanSphere.jpg</foto>
+				</fotografias>
+				<videos>
+				</videos>
+				<comentarios>
+					<comentario>Fisico en proceso.</comentario>
+				</comentarios>
+			</datos>
+		</persona>
+		<persona>
+			<datos>
+				<nombre>Felipe</nombre>
+				<apellidos>Martinez Rodriguez</apellidos>
+				<fechaNacimiento>2001-12-02</fechaNacimiento>
+				<lugarNacimiento>Sevilla</lugarNacimiento>
+				<coordenadasNacimiento latitud="37.37862399505642" longitud="-5.977033022616114" altitud="6"/>
+				<lugarResidencia>Barcelona</lugarResidencia>
+				<coordenadasResidencia latitud="41.39367694756774" longitud="2.1724594247652895" altitud="7"/>
+				<fotografias>
+					<foto>Felipe.jpg</foto>
+				</fotografias>
+				<videos>
+				</videos>
+				<comentarios>
+					<comentario>Actor preferido Denzel Washington.</comentario>
+				</comentarios>
+			</datos>
+		</persona>
+	</persona>
+</persona>
+</redSocial>

@@ -39,10 +39,19 @@ class Ejercicio07 {
         });
     }
 
+    recorrerDOM() {
+            $('table').after('<section><h2>Recorrido</h2></section>');
+            $("*", document.body).each(function () {
+                var etiquetaPadre = $(this).parent().get(0).tagName;
+                $("h2:contains('Recorrido')").after('<p>' + "Elemento padre: " + etiquetaPadre + " tipo de elemento: "
+                    + $(this).get(0).tagName + '</p>');
+            });
+    }
+
     // Sumar filas y columnas de la tabla
     sumarFilasyColumnas() {
         var rowCount = $("table tr").length;
-		var colCount = $("thead th").length;
+		var colCount = $("table tr th").length - $("table tr").length + 1;
         $("section").append('<p> La tabla contiene ' + rowCount + ' filas.</p>');
         $("section").append('<p> La tabla contiene ' + colCount + ' columnas.</p>');
         $("section").append('<p> La suma de filas y columnas de la tabla es de ' + (colCount+rowCount) + '.</p>');

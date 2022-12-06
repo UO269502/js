@@ -7,6 +7,9 @@ class PrecioGasolina {
     }
 
     cargarDatos() {
+        var elemento = document.createElement("section"); 
+        $("button").before(elemento);
+        $("button").attr("disabled","disabled");
         var output = "<h2>Precio: €/1000L</h2>"
         $.getJSON(this.url, function(datos) {
             output += "<ul>";
@@ -15,7 +18,7 @@ class PrecioGasolina {
                     output+="<li>País: " + datos[i].country + "<ul><li>Precio gasolina 95: " + datos[i].gasoline + "€/1000L</li>" + "<li>Precio diesel: " + datos[i].diesel + "€/1000L</li></ul></li>";
             }
             output+="</ul>";
-            document.querySelector("section").innerHTML=output;
+            elemento.innerHTML = output;
         });
     }
 }

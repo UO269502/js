@@ -1,0 +1,21 @@
+/*Especificidad: 001*/
+body {
+    color: #000000;
+    background-color: #fdf8dd;
+}
+
+/*Especificidad: 001*/
+h2 {
+    grid-column-end: span 2;
+}
+
+/*Especificidad: 001*/
+section {
+    width: 100%;
+    height: 80vh;
+}
+
+/*Especificidad: 001*/
+h2 {
+    grid-column-end: span 2;
+}

@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="author" content="Luis Manuel González Baizán" />
-    <meta name="description" content="Precio de la gasolina 95 en europa" />
-    <meta name="keywords" content="Precio, gasolina, diesel, Europa" />
+    <meta name="description" content="Mapa dinámico de la posción del usuario" />
+    <meta name="keywords" content="Mapa" />
     <meta name="viewport" content ="width=device-width, initial scale=1.0" />
-    <title>Ejercicio-10</title>
-    <link rel="stylesheet" href="Ejercicio10.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="Ejercicio10.js"></script>
+    <title>Ejercicio-11: Tarea-5</title>
+    <link rel="stylesheet" href="Tarea5.css">
+    <script src="Tarea5.js"></script>
 </head>
-<body>
-    <h1>Precio gasolina 95 y diesel en distintos paises de Europa</h1>
-    <button onclick="precio.cargarDatos();">Cargar precios de gasolina y diesel</button>
+
+<body onload="mapaDinamigoGoogle.initMap();">
+    <h1>Mapa dinámico Google</h1>
+    <section></section>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6j4mF6blrc4kZ54S6vYZ2_FpMY9VzyRU"></script>
     <!-- Dirección de contacto con el creador de la página web -->
     <address>
         <p>En caso de cualquier incidencia envía un email al siguiente correo: <a href="mailto:uo269502@uniovi.es">uo269502@uniovi.es</a></p>
@@ -23,4 +25,5 @@
         <p>Copyright ©2022 UO269502</p>
     </footer>
 </body>
+
 </html>

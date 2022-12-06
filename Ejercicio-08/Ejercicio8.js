@@ -3,12 +3,9 @@
 class DatosMeteorologicos {
 
     constructor() {
-        //Cinco ciudades de diferentes países
         this.lugares = ['Oviedo', 'Dublín', 'Akureyri', 'Oporto', 'Bruxelles'];
         //Clave personal
         this.apikey = "d3f39b9c61bcffbc665059bbed2a086a";
-        //Codigo de dos letras referente a cinco paises diferentes:
-        // ES -> España, IE -> Irlanda, IS -> Islandia, PT -> Portugal, BE -> Bélgica
         this.codigoPais = ["ES", "IE", "IS", "PT", "BE"];
     }
 
@@ -52,7 +49,7 @@ class DatosMeteorologicos {
                     datosMeteorologicos += "<li>Nubosidad: " + datos.clouds.all + " %</li></ul>";
                 
                 elemento.innerHTML = datosMeteorologicos;
-            }, error: function() { // no lo añadas a la aplicación
+            }, error: function() { 
                 $(elemento).remove();
             }
         });

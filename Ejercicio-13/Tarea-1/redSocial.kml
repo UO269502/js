@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+<name> coordenadas de personas </name>
+<Placemark>
+<name> Lugar de nacimiento de Luis Manuel Gonzalez Baizan </name>
+<Point>
+<coordinates>-5.543699943057527,43.11972548534997,573</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name> Lugar de residencia de Luis Manuel Gonzalez Baizan </name>
+<Point>
+<coordinates>-5.873177321945873,43.3521617120154,349</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name> Lugar de nacimiento de Mateo Gonzalez Oliva </name>
+<Point>
+<coordinates>-5.777991945648195,43.25049731953863,207</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name> Lugar de residencia de Mateo Gonzalez Oliva </name>
+<Point>
+<coordinates>-5.8778295903311735,43.30855011899778,166</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name> Lugar de nacimiento de David Denis Fernandez </name>
+<Point>
+<coordinates>4.358592554502403,50.84339793569801,21</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name> Lugar de residencia de David Denis Fernandez </name>
+<Point>
+<coordinates>4.914253420215366,52.35793779281528,1</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name> Lugar de nacimiento de Marina Gonzelez Rodriguez </name>
+<Point>
+<coordinates>-3.813369138186053,43.4647031225115,11</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name> Lugar de residencia de Marina Gonzelez Rodriguez </name>
+<Point>
+<coordinates>-4.7559886012584975,43.422915856790105,8</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name> Lugar de nacimiento de Gonzalo Perez Iglesias </name>
+<Point>
+<coordinates>-6.943048911880042,43.56914086773974,19</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name> Lugar de residencia de Gonzalo Perez Iglesias </name>
+<Point>
+<coordinates>-6.279534290615111,36.519717776067374,15</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name> Lugar de nacimiento de Adrian Fernandez Aladro </name>
+<Point>
+<coordinates>-5.563859036034491,43.24351110543004,287</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name> Lugar de residencia de Adrian Fernandez Aladro </name>
+<Point>
+<coordinates>-5.4118834308130825,43.15593143895082,735</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name> Lugar de nacimiento de Hugo Martinez Martinez </name>
+<Point>
+<coordinates>-0.13111140647912203,38.53398213305735,19</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name> Lugar de residencia de Hugo Martinez Martinez </name>
+<Point>
+<coordinates>-0.8906897774736898,41.646811674875984,221</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name> Lugar de nacimiento de Alejandro Valero Gonzalez </name>
+<Point>
+<coordinates>-6.330162844873174,53.35873602893346,38</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name> Lugar de residencia de Alejandro Valero Gonzalez </name>
+<Point>
+<coordinates>-21.903255157224443,64.13572020815224,39</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name> Lugar de nacimiento de Angela Suarez Perez </name>
+<Point>
+<coordinates>-9.136514408307939,38.719785335606,15</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name> Lugar de residencia de Angela Suarez Perez </name>
+<Point>
+<coordinates>-71.06641598523109,42.35138338770072,44</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name> Lugar de nacimiento de Marta Fernandez Morales </name>
+<Point>
+<coordinates>-5.573271551434656,42.601014044704385,832</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name> Lugar de residencia de Marta Fernandez Morales </name>
+<Point>
+<coordinates>-3.6977487310143657,40.40223849231007,610</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name> Lugar de nacimiento de Ana Garcia Garcia </name>
+<Point>
+<coordinates>-5.67051497632489,43.53316543681475,5</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name> Lugar de residencia de Ana Garcia Garcia </name>
+<Point>
+<coordinates>-3.696753484499733,42.34678503523332,850</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name> Lugar de nacimiento de Miguel Rodriguez Fano </name>
+<Point>
+<coordinates>-5.748992952555026,43.37568888491117,185</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name> Lugar de residencia de Miguel Rodriguez Fano </name>
+<Point>
+<coordinates>12.494791200265107,41.8905651018429,58</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name> Lugar de nacimiento de Felipe Martinez Rodriguez </name>
+<Point>
+<coordinates>-5.977033022616114,37.37862399505642,6</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name> Lugar de residencia de Felipe Martinez Rodriguez </name>
+<Point>
+<coordinates>2.1724594247652895,41.39367694756774,7</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

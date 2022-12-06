@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Luis Manuel González Baizán" />
+    <meta name="description" content="Procesamiento de un archivo GeoJSON" />
+    <meta name="keywords" content="archivo, nacimiento, residencia, personas" />
+    <meta name="viewport" content ="width=device-width, initial scale=1.0" />
+    <title>Ejercicio-13: Tarea-2</title>
+    <link rel="stylesheet" href="MapaGeoJSON.css">
+    <script src="MapaGeoJSON.js"></script>
+</head>
+
+<body>
+    <h1>Señalización en el mundo de lugares de nacimiento y residencia de la personas de la red social.</h1>
+    <label for="archivo" hidden> Selector de archivo </label>
+    <input type="file" onchange= "mapaGeoJSON.initMap(this.files)" id="archivo" />
+    <section></section>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6j4mF6blrc4kZ54S6vYZ2_FpMY9VzyRU&libraries=places"></script>
+    <!-- Dirección de contacto con el creador de la página web -->
+    <address>
+        <p>En caso de cualquier incidencia envía un email al siguiente correo: <a href="mailto:uo269502@uniovi.es">uo269502@uniovi.es</a></p>
+    </address>
+    <!-- Pie de página -->
+    <footer>
+        <p>Copyright ©2022 UO269502</p>
+    </footer>
+</body>
+
+</html>

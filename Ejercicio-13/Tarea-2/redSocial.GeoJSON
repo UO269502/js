@@ -1,0 +1,33 @@
+{
+"type": "FeatureCollection",
+"name": " coordenadas de personas ",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": " Lugar de nacimiento de Luis Manuel Gonzalez Baizan ", "description": null }, "geometry": { "type": "Point", "coordinates": [ -5.543699943057527, 43.119725485349967 ] } },
+{ "type": "Feature", "properties": { "Name": " Lugar de residencia de Luis Manuel Gonzalez Baizan ", "description": null }, "geometry": { "type": "Point", "coordinates": [ -5.873177321945873, 43.352161712015402 ] } },
+{ "type": "Feature", "properties": { "Name": " Lugar de nacimiento de Mateo Gonzalez Oliva ", "description": null }, "geometry": { "type": "Point", "coordinates": [ -5.777991945648195, 43.250497319538631 ] } },
+{ "type": "Feature", "properties": { "Name": " Lugar de residencia de Mateo Gonzalez Oliva ", "description": null }, "geometry": { "type": "Point", "coordinates": [ -5.877829590331173, 43.308550118997779 ] } },
+{ "type": "Feature", "properties": { "Name": " Lugar de nacimiento de David Denis Fernandez ", "description": null }, "geometry": { "type": "Point", "coordinates": [ 4.358592554502403, 50.843397935698007 ] } },
+{ "type": "Feature", "properties": { "Name": " Lugar de residencia de David Denis Fernandez ", "description": null }, "geometry": { "type": "Point", "coordinates": [ 4.914253420215366, 52.357937792815278 ] } },
+{ "type": "Feature", "properties": { "Name": " Lugar de nacimiento de Marina Gonzelez Rodriguez ", "description": null }, "geometry": { "type": "Point", "coordinates": [ -3.813369138186053, 43.464703122511501 ] } },
+{ "type": "Feature", "properties": { "Name": " Lugar de residencia de Marina Gonzelez Rodriguez ", "description": null }, "geometry": { "type": "Point", "coordinates": [ -4.755988601258498, 43.422915856790105 ] } },
+{ "type": "Feature", "properties": { "Name": " Lugar de nacimiento de Gonzalo Perez Iglesias ", "description": null }, "geometry": { "type": "Point", "coordinates": [ -6.943048911880042, 43.56914086773974 ] } },
+{ "type": "Feature", "properties": { "Name": " Lugar de residencia de Gonzalo Perez Iglesias ", "description": null }, "geometry": { "type": "Point", "coordinates": [ -6.279534290615111, 36.519717776067374 ] } },
+{ "type": "Feature", "properties": { "Name": " Lugar de nacimiento de Adrian Fernandez Aladro ", "description": null }, "geometry": { "type": "Point", "coordinates": [ -5.563859036034491, 43.243511105430038 ] } },
+{ "type": "Feature", "properties": { "Name": " Lugar de residencia de Adrian Fernandez Aladro ", "description": null }, "geometry": { "type": "Point", "coordinates": [ -5.411883430813083, 43.155931438950823 ] } },
+{ "type": "Feature", "properties": { "Name": " Lugar de nacimiento de Hugo Martinez Martinez ", "description": null }, "geometry": { "type": "Point", "coordinates": [ -0.131111406479122, 38.53398213305735 ] } },
+{ "type": "Feature", "properties": { "Name": " Lugar de residencia de Hugo Martinez Martinez ", "description": null }, "geometry": { "type": "Point", "coordinates": [ -0.89068977747369, 41.646811674875984 ] } },
+{ "type": "Feature", "properties": { "Name": " Lugar de nacimiento de Alejandro Valero Gonzalez ", "description": null }, "geometry": { "type": "Point", "coordinates": [ -6.330162844873174, 53.358736028933457 ] } },
+{ "type": "Feature", "properties": { "Name": " Lugar de residencia de Alejandro Valero Gonzalez ", "description": null }, "geometry": { "type": "Point", "coordinates": [ -21.903255157224443, 64.135720208152236 ] } },
+{ "type": "Feature", "properties": { "Name": " Lugar de nacimiento de Angela Suarez Perez ", "description": null }, "geometry": { "type": "Point", "coordinates": [ -9.136514408307939, 38.719785335605998 ] } },
+{ "type": "Feature", "properties": { "Name": " Lugar de residencia de Angela Suarez Perez ", "description": null }, "geometry": { "type": "Point", "coordinates": [ -71.066415985231089, 42.351383387700722 ] } },
+{ "type": "Feature", "properties": { "Name": " Lugar de nacimiento de Marta Fernandez Morales ", "description": null }, "geometry": { "type": "Point", "coordinates": [ -5.573271551434656, 42.601014044704385 ] } },
+{ "type": "Feature", "properties": { "Name": " Lugar de residencia de Marta Fernandez Morales ", "description": null }, "geometry": { "type": "Point", "coordinates": [ -3.697748731014366, 40.402238492310069 ] } },
+{ "type": "Feature", "properties": { "Name": " Lugar de nacimiento de Ana Garcia Garcia ", "description": null }, "geometry": { "type": "Point", "coordinates": [ -5.67051497632489, 43.533165436814748 ] } },
+{ "type": "Feature", "properties": { "Name": " Lugar de residencia de Ana Garcia Garcia ", "description": null }, "geometry": { "type": "Point", "coordinates": [ -3.696753484499733, 42.346785035233317 ] } },
+{ "type": "Feature", "properties": { "Name": " Lugar de nacimiento de Miguel Rodriguez Fano ", "description": null }, "geometry": { "type": "Point", "coordinates": [ -5.748992952555026, 43.37568888491117 ] } },
+{ "type": "Feature", "properties": { "Name": " Lugar de residencia de Miguel Rodriguez Fano ", "description": null }, "geometry": { "type": "Point", "coordinates": [ 12.494791200265107, 41.890565101842903 ] } },
+{ "type": "Feature", "properties": { "Name": " Lugar de nacimiento de Felipe Martinez Rodriguez ", "description": null }, "geometry": { "type": "Point", "coordinates": [ -5.977033022616114, 37.378623995056422 ] } },
+{ "type": "Feature", "properties": { "Name": " Lugar de residencia de Felipe Martinez Rodriguez ", "description": null }, "geometry": { "type": "Point", "coordinates": [ 2.17245942476529, 41.393676947567741 ] } }
+]
+}
