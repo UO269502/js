@@ -14,10 +14,8 @@
     <h1>Curso: 2022/2023</h1>
     <section>
         <h2>Calculadora RPN</h2>
-        <label for="pantallaPila">PantallaPila:</label>
-        <textarea id="pantallaPila" cols="40" rows="4" disabled></textarea>
-        <label for="pantalla">Pantalla:</label>
-        <input id="pantalla" type="text" title="pantalla" disabled>
+        <textarea cols="40" rows="4" disabled></textarea>
+        <input type="text" title="pantalla" disabled>
 
         <!-- Buttons to perform the calculations -->
         <input type="button" value="sin"   onclick="calc.seno();" />
@@ -30,10 +28,10 @@
         <input type="button" value="x^2"    onclick="calc.cuadrado();" />
         <input type="button" value="10^x"  onclick="calc.potencia10();" />
         
-        <input type="button" value="±"    onclick="calc.cambioSigno();" />
+        <input type="button" value="&#177;"    onclick="calc.cambioSigno();" />
         <input type="button" value="log"    onclick="calc.logaritmo();" />
-        <input type="button" value="√" onclick="calc.raizCuadrada();" />
-        <input type="button" value="÷" onclick="calc.division();" />
+        <input type="button" value="&Sqrt;" onclick="calc.raizCuadrada();" />
+        <input type="button" value="&div;" onclick="calc.division();" />
 
         <input type="button" value="7" onclick="calc.digitos(this.value);" />
         <input type="button" value="8" onclick="calc.digitos(this.value);" />
@@ -55,6 +53,10 @@
         <input type="button" value="."     onclick="calc.digitos(this.value);" />
         <input type="submit" value="ENTER" onclick="calc.enter();" />
     </section>
+    <main>
+        <h2>Ayuda</h2>
+        <p>Si no sabes como utilizar la calculadora haz click en el siguiente enlace: <a href="https://es.wikipedia.org/wiki/Notaci%C3%B3n_polaca_inversa#Ejemplo">soy lo que necesitas UwU</a></p>
+    </main>
 </body>
 
 </html>
